@@ -5,6 +5,8 @@
 #include <QLabel>
 #include "opencv2/core.hpp"
 
+#define DEFAULT_LOCATION "./shape_sample/"
+
 namespace Ui {
 class MainWindow;
 }

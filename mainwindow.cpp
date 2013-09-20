@@ -109,7 +109,7 @@ void MainWindow::on_searchButton_clicked()
     mysc->setIterations(1);
     std::vector<Point> s1 = simpleContour(shape1,100);
 
-    QString base = "./shape_sample/";
+    QString base = DEFAULT_LOCATION;
     float minDis = FLT_MAX;
     int sind=1;
     for (int ii=1; ii<=20; ii++){
